@@ -12,7 +12,9 @@ timezone: Africa/Nairobi               # Set your local timezone
 lang: en                               # Preferred language
 
 # 4. Avatar & Profile Configuration
-avatar: "assets/img/avatar_profile.png"       # Path to your profile picture inside your repo
+# 4. Avatar & Profile Configuration
+avatar: "{{ site.baseurl }}/assets/img/avatar_profile.png"
+       # Path to your profile picture inside your repo
 
 # 5. Theme Configurations
 theme_mode: dark                       # Options: 'light', 'dark', or 'prefer-system'
