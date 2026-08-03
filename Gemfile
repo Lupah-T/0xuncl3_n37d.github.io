@@ -6,6 +6,7 @@ gem "jekyll-theme-chirpy", "~> 7.0" # Ensure this matches your target version
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
+  gem "jekyll-remote-theme" 
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
