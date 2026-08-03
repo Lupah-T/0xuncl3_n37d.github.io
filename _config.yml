@@ -22,4 +22,14 @@ social:
   name: "Uncle_N3rd"
   email: "isaackash254@gmail.com"
   github: "Lupah-T"                # Only the username, NO full URL string
-  twitter: "KidLupah5478"          # Only the handle, NO full URL string
+  twitter: "KidLupah5478"      
+  
+# 1. Tell Jekyll to fetch layout properties remotely over HTTPS
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# 2. Update your plugins section to include the remote rendering engine
+plugins:
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-remote-theme    # <--- This line allows Vercel to pull layout structures dynamically
+
