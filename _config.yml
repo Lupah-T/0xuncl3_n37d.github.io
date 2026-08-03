@@ -21,8 +21,11 @@ toc: true                              # Enables Table of Contents on the side o
 social:
   name: "Uncle_N3rd"
   email: "isaackash254@gmail.com"
-  github: "Lupah-T"                # Only the username, NO full URL string
-  twitter: "KidLupah5478"      
+  github: "Lupah-T"    
+   github_username: "Lupah-T" # <-- MUST be just the username in quotes
+  twitter: "KidLupah5478"          
+  linkedin: "isaac-karanja"        
+      
   
 # 1. Tell Jekyll to fetch layout properties remotely over HTTPS
 # 1. We are using local layouts now, so we remove remote_theme and use the theme gem
