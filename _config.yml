@@ -25,11 +25,14 @@ social:
   twitter: "KidLupah5478"      
   
 # 1. Tell Jekyll to fetch layout properties remotely over HTTPS
-remote_theme: cotes2020/jekyll-theme-chirpy
+# 1. We are using local layouts now, so we remove remote_theme and use the theme gem
+theme: jekyll-theme-chirpy
 
-# 2. Update your plugins section to include the remote rendering engine
+# 2. Update your plugins section (removed jekyll-remote-theme)
 plugins:
   - jekyll-paginate
   - jekyll-include-cache
-  - jekyll-remote-theme    # <--- This line allows Vercel to pull layout structures dynamically
+  - jekyll-sitemap
+  - jekyll-seo-tag
+# <--- This line allows Vercel to pull layout structures dynamically
 
